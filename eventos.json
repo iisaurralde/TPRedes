@@ -1,0 +1,1810 @@
+{
+    "data": [
+        {
+            "type": "ocurrencias",
+            "id": "56716",
+            "attributes": {
+                "id": 56716,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56716",
+                "name": "VIII Congreso Internacional de Medicina Interna",
+                "dateFull": {
+                    "value": "2019-05-16 08:00:00",
+                    "value2": "2019-05-16 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-16 08:00:00",
+                "date_end": "2019-05-16 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "CARBALLO LUIS CANDIDO 178",
+                "eventual_direccion": "CARBALLO LUIS CANDIDO 178",
+                "eventual_coords": "5437750.797633288,6357559.703059582",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56714",
+                "regla": "56715",
+                "regla_er": "56715"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56716"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56717",
+            "attributes": {
+                "id": 56717,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56717",
+                "name": "VIII Congreso Internacional de Medicina Interna",
+                "dateFull": {
+                    "value": "2019-05-15 08:00:00",
+                    "value2": "2019-05-15 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-15 08:00:00",
+                "date_end": "2019-05-15 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "CARBALLO LUIS CANDIDO 178",
+                "eventual_direccion": "CARBALLO LUIS CANDIDO 178",
+                "eventual_coords": "5437750.797633288,6357559.703059582",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56714",
+                "regla": "56715",
+                "regla_er": "56715"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56717"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56718",
+            "attributes": {
+                "id": 56718,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56718",
+                "name": "VIII Congreso Internacional de Medicina Interna",
+                "dateFull": {
+                    "value": "2019-05-14 08:00:00",
+                    "value2": "2019-05-14 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-14 08:00:00",
+                "date_end": "2019-05-14 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "CARBALLO LUIS CANDIDO 178",
+                "eventual_direccion": "CARBALLO LUIS CANDIDO 178",
+                "eventual_coords": "5437750.797633288,6357559.703059582",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56714",
+                "regla": "56715",
+                "regla_er": "56715"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56718"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56809",
+            "attributes": {
+                "id": 56809,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56809",
+                "name": "XIX Media Marat\u00f3n NB Ciudad de Rosario",
+                "dateFull": {
+                    "value": "2019-05-12 08:00:00",
+                    "value2": "2019-05-12 11:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-12 08:00:00",
+                "date_end": "2019-05-12 11:00:00",
+                "text": null,
+                "ticket": "paga",
+                "ticket_value": "desde $600",
+                "eventual_name": "Monumento Hist\u00f3rico Nacional a la Bandera Argentina",
+                "eventual_direccion": "SANTA FE 581",
+                "eventual_coords": "5441005.39,6354872.53",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56808",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "8120"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=8120",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/56809\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56809"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56811",
+            "attributes": {
+                "id": 56811,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56811",
+                "name": "XVIII 42k Rosario - Marat\u00f3n Internacional de la Bandera",
+                "dateFull": {
+                    "value": "2019-06-23 09:00:00",
+                    "value2": "2019-06-23 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-23 09:00:00",
+                "date_end": "2019-06-23 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Monumento Hist\u00f3rico Nacional a la Bandera Argentina",
+                "eventual_direccion": "SANTA FE 581",
+                "eventual_coords": "5441005.39,6354872.53",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56810",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "8120"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=8120",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/56811\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56811"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56871",
+            "attributes": {
+                "id": 56871,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56871",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-22 09:00:00",
+                    "value2": "2019-06-22 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-22 09:00:00",
+                "date_end": "2019-06-22 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56871"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56872",
+            "attributes": {
+                "id": 56872,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56872",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-21 09:00:00",
+                    "value2": "2019-06-21 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-21 09:00:00",
+                "date_end": "2019-06-21 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56872"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56873",
+            "attributes": {
+                "id": 56873,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56873",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-20 09:00:00",
+                    "value2": "2019-06-20 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-20 09:00:00",
+                "date_end": "2019-06-20 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56873"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56874",
+            "attributes": {
+                "id": 56874,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56874",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-19 09:00:00",
+                    "value2": "2019-06-19 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-19 09:00:00",
+                "date_end": "2019-06-19 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56874"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56875",
+            "attributes": {
+                "id": 56875,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56875",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-18 09:00:00",
+                    "value2": "2019-06-18 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-18 09:00:00",
+                "date_end": "2019-06-18 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56875"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56876",
+            "attributes": {
+                "id": 56876,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56876",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-17 09:00:00",
+                    "value2": "2019-06-17 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-17 09:00:00",
+                "date_end": "2019-06-17 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56876"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56877",
+            "attributes": {
+                "id": 56877,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56877",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-16 09:00:00",
+                    "value2": "2019-06-16 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-16 09:00:00",
+                "date_end": "2019-06-16 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56877"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56878",
+            "attributes": {
+                "id": 56878,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56878",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-15 09:00:00",
+                    "value2": "2019-06-15 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-15 09:00:00",
+                "date_end": "2019-06-15 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56878"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56879",
+            "attributes": {
+                "id": 56879,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56879",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-14 09:00:00",
+                    "value2": "2019-06-14 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-14 09:00:00",
+                "date_end": "2019-06-14 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56879"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56880",
+            "attributes": {
+                "id": 56880,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56880",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-13 09:00:00",
+                    "value2": "2019-06-13 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-13 09:00:00",
+                "date_end": "2019-06-13 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56880"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56881",
+            "attributes": {
+                "id": 56881,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56881",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-12 09:00:00",
+                    "value2": "2019-06-12 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-12 09:00:00",
+                "date_end": "2019-06-12 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56881"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56882",
+            "attributes": {
+                "id": 56882,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56882",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-11 09:00:00",
+                    "value2": "2019-06-11 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-11 09:00:00",
+                "date_end": "2019-06-11 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56882"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56883",
+            "attributes": {
+                "id": 56883,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56883",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-10 09:00:00",
+                    "value2": "2019-06-10 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-10 09:00:00",
+                "date_end": "2019-06-10 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56883"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56884",
+            "attributes": {
+                "id": 56884,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56884",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-09 09:00:00",
+                    "value2": "2019-06-09 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-09 09:00:00",
+                "date_end": "2019-06-09 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56884"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56885",
+            "attributes": {
+                "id": 56885,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56885",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-08 09:00:00",
+                    "value2": "2019-06-08 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-08 09:00:00",
+                "date_end": "2019-06-08 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56885"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56886",
+            "attributes": {
+                "id": 56886,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56886",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-07 09:00:00",
+                    "value2": "2019-06-07 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-07 09:00:00",
+                "date_end": "2019-06-07 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56886"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56887",
+            "attributes": {
+                "id": 56887,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56887",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-06 09:00:00",
+                    "value2": "2019-06-06 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-06 09:00:00",
+                "date_end": "2019-06-06 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56887"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56888",
+            "attributes": {
+                "id": 56888,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56888",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-05 09:00:00",
+                    "value2": "2019-06-05 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-05 09:00:00",
+                "date_end": "2019-06-05 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56888"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56889",
+            "attributes": {
+                "id": 56889,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56889",
+                "name": "Campeonato Mundial de Rugby U20",
+                "dateFull": {
+                    "value": "2019-06-04 09:00:00",
+                    "value2": "2019-06-04 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-04 09:00:00",
+                "date_end": "2019-06-04 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Sociedad del Estado Municipal Hip\u00f3dromo Rosario",
+                "eventual_direccion": "ALIGHIERI DANTE 2401",
+                "eventual_coords": "5438233.58,6353153.86",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56868",
+                "regla": "56870",
+                "regla_er": "56870"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56889"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56920",
+            "attributes": {
+                "id": 56920,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56920",
+                "name": "49\u00b0 Congreso Argentino de Cirug\u00eda Pl\u00e1stica (SACPER 2019)",
+                "dateFull": {
+                    "value": "2019-05-24 09:00:00",
+                    "value2": "2019-05-24 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-24 09:00:00",
+                "date_end": "2019-05-24 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "CARBALLO LUIS CANDIDO 178",
+                "eventual_direccion": "CARBALLO LUIS CANDIDO 178",
+                "eventual_coords": "5437750.797633288,6357559.703059582",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56918",
+                "regla": "56919",
+                "regla_er": "56919"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56920"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56921",
+            "attributes": {
+                "id": 56921,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56921",
+                "name": "49\u00b0 Congreso Argentino de Cirug\u00eda Pl\u00e1stica (SACPER 2019)",
+                "dateFull": {
+                    "value": "2019-05-23 09:00:00",
+                    "value2": "2019-05-23 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-23 09:00:00",
+                "date_end": "2019-05-23 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "CARBALLO LUIS CANDIDO 178",
+                "eventual_direccion": "CARBALLO LUIS CANDIDO 178",
+                "eventual_coords": "5437750.797633288,6357559.703059582",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56918",
+                "regla": "56919",
+                "regla_er": "56919"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56921"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56922",
+            "attributes": {
+                "id": 56922,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56922",
+                "name": "49\u00b0 Congreso Argentino de Cirug\u00eda Pl\u00e1stica (SACPER 2019)",
+                "dateFull": {
+                    "value": "2019-05-22 09:00:00",
+                    "value2": "2019-05-22 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-22 09:00:00",
+                "date_end": "2019-05-22 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "CARBALLO LUIS CANDIDO 178",
+                "eventual_direccion": "CARBALLO LUIS CANDIDO 178",
+                "eventual_coords": "5437750.797633288,6357559.703059582",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56918",
+                "regla": "56919",
+                "regla_er": "56919"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56922"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56925",
+            "attributes": {
+                "id": 56925,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56925",
+                "name": "XXXVII Congreso Nacional de Cardiolog\u00eda",
+                "dateFull": {
+                    "value": "2019-06-01 09:00:00",
+                    "value2": "2019-06-01 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-01 09:00:00",
+                "date_end": "2019-06-01 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Metropolitano",
+                "eventual_direccion": "CENTRAL ARGENTINO 610",
+                "eventual_coords": "5437175.38,6356872.89",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56923",
+                "regla": "56924",
+                "regla_er": "56924"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56925"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56926",
+            "attributes": {
+                "id": 56926,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56926",
+                "name": "XXXVII Congreso Nacional de Cardiolog\u00eda",
+                "dateFull": {
+                    "value": "2019-05-31 09:00:00",
+                    "value2": "2019-05-31 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-31 09:00:00",
+                "date_end": "2019-05-31 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Metropolitano",
+                "eventual_direccion": "CENTRAL ARGENTINO 610",
+                "eventual_coords": "5437175.38,6356872.89",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56923",
+                "regla": "56924",
+                "regla_er": "56924"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56926"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "56927",
+            "attributes": {
+                "id": 56927,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56927",
+                "name": "XXXVII Congreso Nacional de Cardiolog\u00eda",
+                "dateFull": {
+                    "value": "2019-05-30 09:00:00",
+                    "value2": "2019-05-30 09:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-30 09:00:00",
+                "date_end": "2019-05-30 09:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Metropolitano",
+                "eventual_direccion": "CENTRAL ARGENTINO 610",
+                "eventual_coords": "5437175.38,6356872.89",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "56923",
+                "regla": "56924",
+                "regla_er": "56924"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/56927"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "57410",
+            "attributes": {
+                "id": 57410,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/57410",
+                "name": "Vencimiento de tributos municipales en mayo",
+                "dateFull": {
+                    "value": "2019-05-10 00:00:00",
+                    "value2": "2019-05-10 23:59:59",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-10 00:00:00",
+                "date_end": "2019-05-10 23:59:59",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Secretar\u00eda de Hacienda y Econom\u00eda",
+                "eventual_direccion": "BUENOS AIRES 711 1\u00ba",
+                "eventual_coords": "5440860.59,6354922.47",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "57409",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/57410"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "58982",
+            "attributes": {
+                "id": 58982,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/58982",
+                "name": "Canje de materiales reciclables en Plaza del Omb\u00fa",
+                "dateFull": {
+                    "value": "2019-05-17 10:00:00",
+                    "value2": "2019-05-17 12:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-17 10:00:00",
+                "date_end": "2019-05-17 12:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "KENNEDY PRESIDENTE JOHN F 2200",
+                "eventual_direccion": "KENNEDY PRESIDENTE JOHN F 2200",
+                "eventual_coords": "5433379.688067672,6361245.038512616",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "58981",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/58982"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "59014",
+            "attributes": {
+                "id": 59014,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59014",
+                "name": "Canje de materiales reciclables en Plaza San Mart\u00edn",
+                "dateFull": {
+                    "value": "2019-05-31 15:00:00",
+                    "value2": "2019-05-31 17:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-31 15:00:00",
+                "date_end": "2019-05-31 17:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Plaza \u0022Gral. Jos\u00e9 de San Mart\u00edn\u0022",
+                "eventual_direccion": "CORDOBA 1950",
+                "eventual_coords": "5439228.76,6355221.22",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "58984",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59014"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "59016",
+            "attributes": {
+                "id": 59016,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59016",
+                "name": "Canje de materiales reciclables en Plaza Alberdi",
+                "dateFull": {
+                    "value": "2019-06-14 15:00:00",
+                    "value2": "2019-06-14 17:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-14 15:00:00",
+                "date_end": "2019-06-14 17:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Plaza \u0022Juan Bautista Alberdi\u0022",
+                "eventual_direccion": "RONDEAU GRAL. JOSE 1953",
+                "eventual_coords": "5435182.67,6360663.83",
+                "eventual_distrito": "438",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "59015",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59016"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "59018",
+            "attributes": {
+                "id": 59018,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59018",
+                "name": "Canje de materiales reciclables en Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-06-28 15:00:00",
+                    "value2": "2019-06-28 17:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-28 15:00:00",
+                "date_end": "2019-06-28 17:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "59017",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/59018\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59018"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "59020",
+            "attributes": {
+                "id": 59020,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59020",
+                "name": "Canje de materiales reciclables en Plaza Saavedra",
+                "dateFull": {
+                    "value": "2019-07-12 10:00:00",
+                    "value2": "2019-07-12 12:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-07-12 10:00:00",
+                "date_end": "2019-07-12 12:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Plaza Gral. Cornelio Saavedra",
+                "eventual_direccion": "SAAVEDRA CORNELIO 1850",
+                "eventual_coords": "5438635.75,6351695.73",
+                "eventual_distrito": "441",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "59019",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59020"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "59026",
+            "attributes": {
+                "id": 59026,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59026",
+                "name": "Canje de materiales reciclables en Plaza L\u00f3pez",
+                "dateFull": {
+                    "value": "2019-08-02 15:00:00",
+                    "value2": "2019-08-02 17:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-08-02 15:00:00",
+                "date_end": "2019-08-02 17:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Plaza \u0022Gral. Juan Pablo L\u00f3pez\u0022",
+                "eventual_direccion": "PELLEGRINI CARLOS 799",
+                "eventual_coords": "5440453.94,6353672.32",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "59024",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59026"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "59036",
+            "attributes": {
+                "id": 59036,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59036",
+                "name": "Canje de materiales reciclables en Plaza Las Heras",
+                "dateFull": {
+                    "value": "2019-08-23 10:00:00",
+                    "value2": "2019-08-23 12:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-08-23 10:00:00",
+                "date_end": "2019-08-23 12:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Plaza \u0022Gral. Juan Gregorio Las Heras\u0022",
+                "eventual_direccion": "NUESTRA SRA DEL ROSARIO 600",
+                "eventual_coords": "5439926.4,6349085.66",
+                "eventual_distrito": "441",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "59033",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/59036"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61091",
+            "attributes": {
+                "id": 61091,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61091",
+                "name": "Exposici\u00f3n: De las sombras a la luz",
+                "dateFull": {
+                    "value": "2019-06-17 16:00:00",
+                    "value2": "2019-06-17 19:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-17 16:00:00",
+                "date_end": "2019-06-17 19:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Museo de la Memoria",
+                "eventual_direccion": "CORDOBA 2019",
+                "eventual_coords": "5439135.82,6355209.84",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "60911",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "8142"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=8142",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61091\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61091"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61773",
+            "attributes": {
+                "id": 61773,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61773",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-03-22 17:00:00",
+                    "value2": "2019-03-22 20:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-03-22 17:00:00",
+                "date_end": "2019-03-22 20:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61773\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61773"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61774",
+            "attributes": {
+                "id": 61774,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61774",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-04-26 18:00:00",
+                    "value2": "2019-04-26 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-04-26 18:00:00",
+                "date_end": "2019-04-26 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61774\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61774"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61775",
+            "attributes": {
+                "id": 61775,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61775",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-05-31 18:00:00",
+                    "value2": "2019-05-31 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-31 18:00:00",
+                "date_end": "2019-05-31 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61775\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61775"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61776",
+            "attributes": {
+                "id": 61776,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61776",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-06-28 18:00:00",
+                    "value2": "2019-06-28 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-06-28 18:00:00",
+                "date_end": "2019-06-28 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61776\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61776"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61777",
+            "attributes": {
+                "id": 61777,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61777",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-07-26 18:00:00",
+                    "value2": "2019-07-26 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-07-26 18:00:00",
+                "date_end": "2019-07-26 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61777\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61777"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61778",
+            "attributes": {
+                "id": 61778,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61778",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-08-30 18:00:00",
+                    "value2": "2019-08-30 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-08-30 18:00:00",
+                "date_end": "2019-08-30 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61778\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61778"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61779",
+            "attributes": {
+                "id": 61779,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61779",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-09-27 18:00:00",
+                    "value2": "2019-09-27 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-09-27 18:00:00",
+                "date_end": "2019-09-27 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61779\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61779"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61780",
+            "attributes": {
+                "id": 61780,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61780",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-10-25 18:00:00",
+                    "value2": "2019-10-25 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-10-25 18:00:00",
+                "date_end": "2019-10-25 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61780\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61780"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61781",
+            "attributes": {
+                "id": 61781,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61781",
+                "name": "Cocina sustentable en el Mercado del Patio",
+                "dateFull": {
+                    "value": "2019-11-29 18:00:00",
+                    "value2": "2019-11-29 18:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-11-29 18:00:00",
+                "date_end": "2019-11-29 18:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "Mercado del Patio",
+                "eventual_direccion": "CAFFERATA JUAN MANUEL 729",
+                "eventual_coords": "5437291.57,6355715.71",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61772",
+                "regla": "0"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "5126"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=5126",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61781\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61781"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61784",
+            "attributes": {
+                "id": 61784,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61784",
+                "name": "Jornada de Seguros Rosario 2019",
+                "dateFull": {
+                    "value": "2019-05-06 08:30:00",
+                    "value2": "2019-05-06 16:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-05-06 08:30:00",
+                "date_end": "2019-05-06 16:00:00",
+                "text": null,
+                "ticket": "",
+                "ticket_value": "",
+                "eventual_name": "MITRE GENERAL BARTOLOME 299",
+                "eventual_direccion": "MITRE GENERAL BARTOLOME 299",
+                "eventual_coords": "5440344.434785934,6355655.690505894",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "61783",
+                "regla": "0"
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61784"
+            }
+        },
+        {
+            "type": "ocurrencias",
+            "id": "61792",
+            "attributes": {
+                "id": 61792,
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61792",
+                "name": "Exposici\u00f3n: De las sombras a la luz",
+                "dateFull": {
+                    "value": "2019-09-21 16:00:00",
+                    "value2": "2019-09-21 19:00:00",
+                    "timezone": "UTC",
+                    "timezone_db": "UTC",
+                    "date_type": "datetime"
+                },
+                "date_start": "2019-09-21 16:00:00",
+                "date_end": "2019-09-21 19:00:00",
+                "text": null,
+                "ticket": "gratis",
+                "ticket_value": "",
+                "eventual_name": "Museo de la Memoria",
+                "eventual_direccion": "CORDOBA 2019",
+                "eventual_coords": "5439135.82,6355209.84",
+                "eventual_distrito": "437",
+                "suspendida": false,
+                "status": "1",
+                "actividad": "60911",
+                "regla": "61786",
+                "regla_er": "61786"
+            },
+            "relationships": {
+                "place": {
+                    "data": {
+                        "type": "lugares",
+                        "id": "8142"
+                    },
+                    "links": {
+                        "related": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?filter%5Bplace%5D=8142",
+                        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/lugares\/61792\/relationships\/place"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias\/61792"
+            }
+        }
+    ],
+    "meta": {
+        "count": 70990
+    },
+    "links": {
+        "self": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?page%5Bnumber%5D=1",
+        "first": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?",
+        "last": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?page%5Bnumber%5D=1420",
+        "next": "https:\/\/ws.rosario.gob.ar\/web\/api\/v1.0\/ocurrencias?page%5Bnumber%5D=2"
+    }
+}
