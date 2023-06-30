@@ -29,17 +29,11 @@ while True:
             print("\n\n-- Opciones:\n1)Ver todos los eventos del año\n2)Ver los eventos de un mes en particular\n3)Presione (3) para salir")
             opcion = input()    
         
-        print("Hola Usuario! Con esta aplicación usted podrá consultar todos los eventos que nuestra Muni tiene registrados para el año corriente")
-        print("\n\n-- Ingrese (1) si desea consultar por todos los eventos")
-        print("\n-- Ingrese (2) si desea consultar por los eventos de un mes en particular")
-        print("\n-- Ingrese (3) si desea regresar al menu anterior")
-        seleccion = input()
-        while seleccion != "1" and seleccion != "2" and seleccion != "3":
-            print("\n\n¡Opción incorrecta! Por favor vuelva a ingresar una opción válida...")
-            print("\n\n-- Ingrese (1) si desea consultar por todos los eventos")
-            print("\n-- Ingrese (2) si desea consultar por los eventos de un mes en particular")
-            print("\n-- Ingrese (3) si desea regresar al menu anterior")
-            seleccion = input()
+        
+        if opcion == "1":
+            response_json = rq.get(url+"/eventos")
+            response_df = pd.read_json(response_json)
+            print(response_df)
         
     if usuario == "2":
         print("Programa en construcción...")
