@@ -4,9 +4,9 @@
 # El servidor responde a un ciudadano o turista de la Ciudad de Rosario que requiere consultar los eventos disponibles en la ciudad
 # Tambien responde a un administrador que requiere cargar/modificar/eliminar eventos
 
-#### 1. El usuario tipo usuario podrá consultar todos los eventos, o los existentes en determinada fecha, rango.
-#### 1.1. El cliente deberá responder con el nombre del evento, fecha, dirección y el estado (suspendida o vigente)
-#### 2. Un usuario tipo administrador podra cargar/modificar/eliminar eventos
+#### 1. El usuario tipo usuario podrá consultar mediante el Cliente todos los eventos, o los existentes en determinada fecha, rango.
+#### 1.1. El Servidor deberá responder con el nombre del evento, fecha, dirección y el estado (suspendida o vigente)
+#### 2. Un usuario tipo administrador podra leer/cargar/modificar/eliminar eventos.
 
 
 from fastapi import FastAPI
@@ -27,16 +27,6 @@ def get_eventos(mes = None):
     with open(url) as file:
         data = json.load(file)
 
-    # # Indexo el json en la data de interés
-    # eventos = data['data']
-    # # Convierto el json a un dataframe
-    # eventos_df = pd.DataFrame(eventos)
-    # atributos_se = eventos_df['attributes']
-    # atributos_df = pd.DataFrame(atributos_se.tolist())
-    # response_df = atributos_df[['id', 'name', 'date_start', 'date_end', 'ticket_value', 'suspendida']]
-    # response_json = response_df.to_json()
-
-
     eventos = data['data']
     eventos_df = pd.DataFrame(eventos)
     atributos_se = eventos_df['attributes']
@@ -51,6 +41,7 @@ def get_eventos(mes = None):
     else: 
         response_df['date_start'] = pd.to_datetime(response_df['date_start'])
         response_df_filted = response_df[response_df['date_start'].dt.month == int(mes)]
+        response_df_filted['date_start'] = str(response_df_filted['date_start'])
         response_json = response_df_filted.to_json()
 
         return response_json
