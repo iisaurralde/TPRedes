@@ -2,13 +2,13 @@ import requests as rq
 import json
 import pandas as pd
 
-ip = "127.0.0.1"
+ip = r"http://127.0.0.1"
 port = "8000"
 url = ip + ":" + port
 
 while True:
 
-    print("::: Bienvenido a la app de eventos de la Municipalidad de Rosario :::")
+    print("\n\n::: Bienvenido a la app de eventos de la Municipalidad de Rosario :::")
     print("\n\n -- Ingrese (1) para operar como Usuario ")
     print("\n -- Ingrese (2) para operar como Administrador ")
     print("\n -- Ingrese (3) para salir... ")
@@ -31,9 +31,12 @@ while True:
         
         
         if opcion == "1":
-            response_json = rq.get(url+"/eventos")
+            uri = url + r"/eventos"
+            response = rq.get(uri)
+            response_json = json.loads(response.text)
             response_df = pd.read_json(response_json)
-            print(response_df)
+            
+            print(f"\n -> Estos son todos los eventos del año registrados en nuestra plataforma: \n\n{response_df[['name', 'date_start', 'ticket_value']]}")
         
     if usuario == "2":
         print("Programa en construcción...")
