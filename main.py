@@ -15,6 +15,8 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
+
+
 @app.get("/eventos")
 def get_eventos(mes = None):
 
@@ -47,3 +49,59 @@ def get_eventos(mes = None):
         return response_json
 
 
+@app.post("/eventos")
+def post_eventos(id = int, name = str, suspendida = bool):
+    
+    import json
+    from ocurrencias import Ocurrencia
+    from attributes import Attributes
+
+    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+
+    nuevos_atributos = Attributes(
+        id= id,
+        self="",
+        name= name,
+        dateFull={},
+        date_start="2023-01-01",
+        date_end="2023-01-02",
+        text="",
+        ticket="",
+        ticket_value="",
+        eventual_name="",
+        eventual_direccion="",
+        eventual_coords="",
+        eventual_distrito="",
+        suspendida= suspendida,
+        status="",
+        actividad="",
+        regla="",
+        regla_er=""
+    )
+
+    nuevos_atributos = dict(nuevos_atributos)
+
+    nueva_ocurrencia = Ocurrencia(
+        type="ocurrencias",
+        id= id,
+        attributes= nuevos_atributos,
+        links={})
+    
+
+    # Leo el archivo json
+    with open(url) as file:
+        data = json.load(file)
+
+    eventos = data['data']
+    # Agrego el nuevo diccionario a la lista eventos
+    eventos.append(dict(nueva_ocurrencia))
+    # Piso el contenido de la lista eventos con la nueva ocurrencia
+    data['data'] = eventos
+
+
+    # Reescribir el json con los datos modificados
+    with open(url, 'w') as file:
+        json.dump(data, file, indent=4)
+    
+    # Retornar una respuesta exitosa
+    return {"message": "Evento añadido exitosamente"}
