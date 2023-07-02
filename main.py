@@ -1,19 +1,19 @@
-'''Defina cuáles serán las funciones del servidor API, qué funcionalidad cumple,
- ¿qué preguntas responde?, ¿qué datos del json permite cambiar?'''
-
-# El servidor responde a un ciudadano o turista de la Ciudad de Rosario que requiere consultar los eventos disponibles en la ciudad
-# Tambien responde a un administrador que requiere cargar/modificar/eliminar eventos
-
-#### 1. El usuario tipo usuario podrá consultar mediante el Cliente todos los eventos, o los existentes en determinada fecha, rango.
-#### 1.1. El Servidor deberá responder con el nombre del evento, fecha, dirección y el estado (suspendida o vigente)
-#### 2. Un usuario tipo administrador podra leer/cargar/modificar/eliminar eventos.
-
-
 from fastapi import FastAPI
+import os
+
+
+# Obtener la ruta del directorio del archivo python actual
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+# Nombre del archivo json
+file_name = "eventos.json"
+
+# Combinar la ruta del directorio con el nombre del archivo JSON
+file_path = os.path.join(dir_path, file_name)
+
 
 
 app = FastAPI()
-
 
 
 @app.get("/eventos")
@@ -21,11 +21,13 @@ def get_eventos(mes = None):
 
     import json
     import pandas as pd
+    from datetime import datetime
 
-    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+
+    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
 
     # Leo el archivo json
-    with open(url) as file:
+    with open(file_path) as file:
         data = json.load(file)
 
     eventos = data['data']
@@ -39,10 +41,14 @@ def get_eventos(mes = None):
         return response_json
 
     else: 
-        response_df['date_start'] = pd.to_datetime(response_df['date_start'])
-        response_df_filted = response_df[response_df['date_start'].dt.month == int(mes)]
-        response_df_filted['date_start'] = str(response_df_filted['date_start'])
-        response_json = response_df_filted.to_json()
+        response_df_datetime = pd.to_datetime(response_df['date_start'])
+        response_df['date_start'] = response_df_datetime
+        # Con el metodo where busco todos los meses coincidentes con el parámetro recibido
+        # Con dropna, quito los values NA que no coinciden con mi condición de búsqueda
+        response_df_filtered = response_df.where(response_df['date_start'].dt.month == int(mes)).dropna()
+        # Especificando el date_format logro que al transformar los tipos de datos DATE a JSON, estos no pierdan el formato de fecha
+        response_json = response_df_filtered.to_json(date_format='iso')
+
 
         return response_json
 
@@ -54,7 +60,7 @@ def post_eventos(id = str, name = str, suspendida = bool):
     from ocurrencias import Ocurrencia
     from attributes import Attributes
 
-    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
 
     nuevos_atributos = Attributes(
         id= id,
@@ -87,7 +93,7 @@ def post_eventos(id = str, name = str, suspendida = bool):
     
 
     # Leo el archivo json
-    with open(url) as file:
+    with open(file_path) as file:
         data = json.load(file)
 
     eventos = data['data']
@@ -98,7 +104,7 @@ def post_eventos(id = str, name = str, suspendida = bool):
 
 
     # Reescribir el json con los datos modificados
-    with open(url, 'w') as file:
+    with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
     
     # Retornar una respuesta exitosa
@@ -108,9 +114,9 @@ def post_eventos(id = str, name = str, suspendida = bool):
 def put_eventos(id = str, name = str):
     import json
 
-    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
 
-    with open(url) as file:
+    with open(file_path) as file:
         data = json.load(file)
 
     eventos = data['data']
@@ -127,7 +133,7 @@ def put_eventos(id = str, name = str):
     
 
     # Reescribo el json con la actualización
-    with open(url, 'w') as file:
+    with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
     
     # Retornar una respuesta exitosa
@@ -141,9 +147,9 @@ def delete_eventos(id = str):
     import json
     import pandas as pd
 
-    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
 
-    with open(url) as file:
+    with open(file_path) as file:
         data = json.load(file)
     
     eventos = data['data']
@@ -156,4 +162,3 @@ def delete_eventos(id = str):
             
     if not flag:
         return {"message" : f"El evento con ID {evento['id']} no existe en la plataforma"}
-

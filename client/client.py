@@ -110,6 +110,7 @@ while True:
                     response = rq.get(uri)
                     response_json = json.loads(response.text)
                     response_df = pd.read_json(response_json)
+                    response_df['date_start'] = pd.to_datetime(response_df["date_start"])
                     if not response_df.empty:    
                         print(f"\n -> Estos son todos los eventos del mes seleccionado registrados en nuestra plataforma: \n\n{response_df[['name', 'date_start', 'ticket_value']]}")
                     else:
@@ -149,4 +150,3 @@ while True:
     if usuario == "3":
         print("Gracias por usar nuestra plataforma de eventos!! Hasta pronto...")
         break
-
