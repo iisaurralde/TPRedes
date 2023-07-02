@@ -4,7 +4,7 @@ from attributes import Attributes
 
 class Ocurrencia(BaseModel):
     type: str
-    id: int
+    id: str
     attributes: dict
     links: dict
 

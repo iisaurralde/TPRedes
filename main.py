@@ -16,7 +16,6 @@ app = FastAPI()
 
 
 
-
 @app.get("/eventos")
 def get_eventos(mes = None):
 
@@ -34,7 +33,6 @@ def get_eventos(mes = None):
     atributos_se = eventos_df['attributes']
     atributos_df = pd.DataFrame(atributos_se.tolist())
     response_df = atributos_df[['id', 'name', 'date_start', 'date_end', 'ticket_value', 'suspendida']]
-    #request_df = pd.read_json(response_json)
 
     if mes == None:
         response_json = response_df.to_json()
@@ -50,7 +48,7 @@ def get_eventos(mes = None):
 
 
 @app.post("/eventos")
-def post_eventos(id = int, name = str, suspendida = bool):
+def post_eventos(id = str, name = str, suspendida = bool):
     
     import json
     from ocurrencias import Ocurrencia
@@ -105,3 +103,26 @@ def post_eventos(id = int, name = str, suspendida = bool):
     
     # Retornar una respuesta exitosa
     return {"message": "Evento añadido exitosamente"}
+
+
+@app.delete("/eventos")
+def delete_eventos(id = str):
+    import json
+    import pandas as pd
+
+    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+
+    with open(url) as file:
+        data = json.load(file)
+    
+    eventos = data['data']
+    
+    for evento in eventos:
+        if str(evento['id']) == id:
+            eventos.pop(evento)
+            flag = True
+            return {"message" : f"El evento con ID {evento['id']} ha sido eliminado exitosamente"}
+            
+    if not flag:
+        return {"message" : f"El evento con ID {evento['id']} no existe en la plataforma"}
+

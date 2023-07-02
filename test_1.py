@@ -43,10 +43,21 @@ nueva_ocurrencia = Ocurrencia(
 )
 
 eventos = data['data']
+# print(type(eventos))
+# for evento in eventos:
+#     if evento['id'] == "44444":
+#         indice = eventos.index(evento)
+#         eventos.pop(indice)
+#         print("ok")
+eventos_df = pd.DataFrame(eventos)   
+
+eventos_df.drop(eventos_df.id["56717"]) 
+print(eventos_df)    
+
 # Agrego el nuevo diccionario a la lista eventos
-eventos.append(dict(nueva_ocurrencia))
-# Piso el contenido de la lista eventos con la nueva ocurrencia
-data['data'] = eventos
+# eventos.append(dict(nueva_ocurrencia))
+# # Piso el contenido de la lista eventos con la nueva ocurrencia
+# data['data'] = eventos
 
 
 # Reescribir el json con los datos modificados
