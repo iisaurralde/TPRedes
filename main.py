@@ -104,6 +104,38 @@ def post_eventos(id = str, name = str, suspendida = bool):
     # Retornar una respuesta exitosa
     return {"message": "Evento añadido exitosamente"}
 
+@app.put("/eventos")
+def put_eventos(id = str, name = str):
+    import json
+
+    url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
+
+    with open(url) as file:
+        data = json.load(file)
+
+    eventos = data['data']
+    # Actualizo el valor del nombre dentro del diccionario attributes
+    for evento in eventos:
+        if evento['id'] == str(id):
+            print("Match entre ids")
+            evento['attributes']['name'] = name
+
+    
+    # Reescribo el contenido de la variable data
+    data['data'] = eventos
+    print(data)
+    
+
+    # Reescribo el json con la actualización
+    with open(url, 'w') as file:
+        json.dump(data, file, indent=4)
+    
+    # Retornar una respuesta exitosa
+    return {"message": "Nombre de actualizado exitosamente"}
+
+
+
+
 
 @app.delete("/eventos")
 def delete_eventos(id = str):
