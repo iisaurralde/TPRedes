@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class Attributes(BaseModel):
-    id: str
+    id: int
     self: str
     name: str
     dateFull: dict

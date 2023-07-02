@@ -1,10 +1,7 @@
 echo installing dependencies...
 
+python get-pip.py
+
 pip install requests
 pip install pandas
 pip install json
-
-echo executing Client API...
-python client.py
-
-pause

@@ -1,7 +1,8 @@
 import requests as rq
 import json
 import pandas as pd
-import wget
+
+
 
 ip = r"http://127.0.0.1"
 port = "8000"
