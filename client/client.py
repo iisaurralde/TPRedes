@@ -114,12 +114,25 @@ while True:
                         print("\nNo existen eventos registrados en el mes seleccionado")
                 
                 elif opcion == "3":
-                    print("\n\nIngrese el ID del nuevo evento")
+                    print("\n\nIngrese el ID del evento que se quiere agregar")
                     id = input()
                     print("\nIngrese el nombre del nuevo evento")
                     nombre = input()
                     uri = url + f"/eventos?id={id}&name={nombre}&suspendida=false"
                     response = rq.post(uri)
+                    print(f"\n{response.text}")
+                
+
+                elif opcion == "4":
+                    print("Ingrese el ID del evento que se quiere actualizar")
+                    id = input()
+
+
+                elif opcion == "5":
+                    print("\n\nIngrese el id del evento que desea eliminar")
+                    id = input()
+                    uri = url + f"/eventos?id={id}"
+                    response = rq.delete(uri)
                     print(f"\n{response.text}")
 
 
