@@ -7,7 +7,7 @@ IA3.5 Redes de Datos
 ## Informe - Comunicación API Cliente-Servidor entre dos hosts
 
 ### Descripción general:
-El objetivo de este proyecto es desarrollar una comunicación API Cliente-Servidor entre dos hosts. El host servidor correra un uvicon server, el archivo main.py descargara automáticamente datos en un archivo JSON y procesará consultas y modificaciones a los mismos, mientras que el host utilizado como cliente, implementado sobre el archivo client.py realizará estas consultas y modificaciones.
+El objetivo de este proyecto es desarrollar una comunicación API Cliente-Servidor entre dos hosts. El host servidor correra un uvicorn server, el archivo main.py descargara automáticamente datos en formato JSON y procesará consultas y modificaciones a los mismos, mientras que el host utilizado como cliente, implementado sobre el archivo client.py realizará estas consultas y modificaciones.
 
 ### Etapa 1: Elección y consulta de los datos
 En mi caso, utilicé el archivo JSON correspondiente a un registro de eventos de la Municipalidad de Rosario (eventos.json). El archivo contiene múltiples objetos, cada uno representando una "ocurrencia", a la que a lo largo del TP se nombró como evento. Cada evento tiene propiedades o atributos como "name" (nombre del evento), "date_start" (fecha de inicio) y "ticket_value" (valor de la entrada). Para la implementación de el post que agrega nuevos objetos a la base de datos JSON, se crearon 2 clases (attributes y ocurrencias). Dentro de estas clases podremos ver en detalle cada tipo de dato correspondiente al objeto ocurrencia y sus atributos.
@@ -22,7 +22,7 @@ Actualizar el nombre de un evento existente por su ID.
 Eliminar un evento existente por su ID.
 El servidor API responde preguntas como:
 
-El servidor API responde a las siguientes preguntas: 
+#### El servidor API responde a las siguientes preguntas: 
 
 ¿Cuáles son todos los eventos del año?
 ¿Cuáles son los eventos de un mes específico?
