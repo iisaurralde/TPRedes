@@ -60,7 +60,8 @@ Configuración de los puertos utilizados por el servidor y el cliente:
     Por default el servidor uvicorn escucha sobre el puerto 8000
     Por default el cliente escucha sobre el puerto 8000
 
-Instalación de los módulos Python necesarios, como fastapi, request y uvicorn, pandas, json y wget:
+
+Instalación de los módulos Python necesarios:
 
     Ejecutar sobre el servidor:
     pip install fastapi
@@ -68,11 +69,13 @@ Instalación de los módulos Python necesarios, como fastapi, request y uvicorn,
     pip install pandas
     pip install json
     pip install wget
+    pip install pydantic
 
     Ejecutar sobre el host cliente:
     pip install requests
     pip install pandas
     pip install json
+
 
 
 Verificación de la disponibilidad y accesibilidad del archivo JSON en el servidor.
