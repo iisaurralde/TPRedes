@@ -136,7 +136,6 @@ def put_eventos(id = str, name = str):
 
 
 
-
 @app.delete("/eventos")
 def delete_eventos(id = str):
     import json
