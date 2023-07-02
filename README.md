@@ -32,9 +32,9 @@ El servidor API responde preguntas como:
 
 
 ### Etapa 3: Desarrollar el cliente API
-En esta etapa, se desarrolla un programa en Python para implementar un cliente API que pueda realizar consultas y modificaciones al servidor. El cliente API se comunica con el servidor API utilizando solicitudes HTTP, mediante el uso de la libraría request. Se verifica el correcto funcionamiento del cliente API realizando consultas y modificaciones, y asegurándose de que se obtengan las respuestas adecuadas. El cliente admite 2 diferentes tipos de usuarios: tipo Usuario y tipo Administrador. 
+En esta etapa, se desarrolla un programa en Python para implementar un cliente API que pueda realizar consultas y modificaciones al servidor. El cliente API se comunica con el servidor API utilizando solicitudes HTTP, mediante el uso de la libraría request. Se verifica el correcto funcionamiento del cliente API realizando consultas y modificaciones, y asegurándose de que se obtengan las respuestas adecuadas. Como una mejora interesante del cliente, sería crear una interfaz interactiva más orientada al usuario para empaquetar la aplicación y utilizar librerias GUI como Tkinter, PyQt, PySide para ver ventanas con botones, campos de entrada y otros elementos que faciliten la interacción con el cliente API. Actualmente el cliente admite 2 diferentes tipos de usuarios: tipo Usuario y tipo Administrador. 
 El usuario de tipo Usuario, podrá solamente ejecutar tareas de solo lectura sobre la base de datos.
-El usuario de tipo Adminisrtador, podrá ejecutar tareas de lectura y escritura sobre la base de datos.
+El usuario de tipo Administrador, podrá ejecutar tareas de lectura y escritura sobre la base de datos.
 
 ### Etapa 4: Establecer comunicación entre host
 En la última etapa, se montan la aplicación servidor y la aplicación cliente en dos hosts distintos. Se realizan las configuraciones de red y dependencias necesarias en los hosts para preparar el entorno y la comunicación. Se establece la conexión entre el servidor y el cliente y se verifica que las consultas y modificaciones al archivo JSON puedan realizarse correctamente a través de la comunicación entre los dos hosts.
@@ -60,7 +60,8 @@ Configuración de los puertos utilizados por el servidor y el cliente:
     Por default el servidor uvicorn escucha sobre el puerto 8000
     Por default el cliente escucha sobre el puerto 8000
 
-Instalación de los módulos Python necesarios, como fastapi, request y uvicorn, pandas, json y wget:
+
+Instalación de los módulos Python necesarios:
 
     Ejecutar sobre el servidor:
     pip install fastapi
@@ -68,11 +69,13 @@ Instalación de los módulos Python necesarios, como fastapi, request y uvicorn,
     pip install pandas
     pip install json
     pip install wget
+    pip install pydantic
 
     Ejecutar sobre el host cliente:
     pip install requests
     pip install pandas
     pip install json
+
 
 
 Verificación de la disponibilidad y accesibilidad del archivo JSON en el servidor.
