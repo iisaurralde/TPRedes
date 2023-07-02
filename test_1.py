@@ -41,20 +41,39 @@ nueva_ocurrencia = Ocurrencia(
     attributes= nuevos_atributos,
     links={}
 )
-
+id = '56717'
+nuevo_nombre = 'nuevo nombre test'
 eventos = data['data']
+
 # print(type(eventos))
 # for evento in eventos:
 #     if evento['id'] == "44444":
 #         indice = eventos.index(evento)
 #         eventos.pop(indice)
 #         print("ok")
-eventos_df = pd.DataFrame(eventos)   
+# #eventos_df.update()
+# #eventos_df.drop(eventos_df.id["56717"]) 
+# #print(eventos_df['attributes'])
+# # eventos_df_id = eventos_df.set_index('id') 
+# Realizar la actualización en el diccionario
+for evento in eventos:
+    if evento['id'] == id:
+        evento['attributes']['name'] = nuevo_nombre
 
-eventos_df.drop(eventos_df.id["56717"]) 
-print(eventos_df)    
+print(eventos)
 
-# Agrego el nuevo diccionario a la lista eventos
+
+#print(eventos_df)
+
+
+# print(evento_actualizado)
+
+
+
+
+
+
+
 # eventos.append(dict(nueva_ocurrencia))
 # # Piso el contenido de la lista eventos con la nueva ocurrencia
 # data['data'] = eventos
