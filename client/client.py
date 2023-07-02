@@ -1,6 +1,7 @@
 import requests as rq
 import json
 import pandas as pd
+import wget
 
 ip = r"http://127.0.0.1"
 port = "8000"
@@ -81,9 +82,9 @@ while True:
                     print("""\n\n-- Opciones:
                                     \n1) Ver todos los eventos del año
                                     \n2) Ver los eventos de un mes en particular
-                                    \n3) Agregar un evento
-                                    \n4) Actualizar un evento
-                                    \n5) Eliminar un evento  
+                                    \n3) Agregar un nuevo evento
+                                    \n4) Actualizar el nombre de un evento existente por IDr
+                                    \n5) Eliminar un evento exitente por ID
                                     \n6) Presione (6) para salir al menu anterior\n\n""")
                     opcion = input()
 
@@ -122,11 +123,14 @@ while True:
                     response = rq.post(uri)
                     print(f"\n{response.text}")
                 
-
                 elif opcion == "4":
-                    print("Ingrese el ID del evento que se quiere actualizar")
+                    print(f"Ingrese el ID del evento al que se requiere actualizar el nombre")
                     id = input()
-
+                    print(f"Ingrese el nuevo nombre para el evento con ID {id}")                    
+                    nombre = input()
+                    uri = url + f"/eventos?id={id}&name={nombre}"
+                    response = rq.put(uri)
+                    print(f"\n{response.text}")
 
                 elif opcion == "5":
                     print("\n\nIngrese el id del evento que desea eliminar")
