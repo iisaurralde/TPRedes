@@ -76,6 +76,7 @@ Instalación de los módulos Python necesarios:
     pip install pandas
     pip install json
 
+    Sino, ejecutar el respectivo dependencies.sh para cada host.
 
 
 Verificación de la disponibilidad y accesibilidad del archivo JSON en el servidor.
