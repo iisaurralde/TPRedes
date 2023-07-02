@@ -1,4 +1,8 @@
-# TPRedes
+# Universidad Nacional de Rosario
+Facultad de Ciencias Exactas, Ingeniería y Agrimensura
+
+IA3.5 Redes de Datos
+### Tecnicatura Universitaria en Inteligencia Artificial
 
 ## Informe - Comunicación API Cliente-Servidor entre dos hosts
 
