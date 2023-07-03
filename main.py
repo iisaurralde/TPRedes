@@ -24,8 +24,6 @@ def get_eventos(mes = None):
     from datetime import datetime
 
 
-    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
-
     # Leo el archivo json
     with open(file_path) as file:
         data = json.load(file)
@@ -60,7 +58,6 @@ def post_eventos(id = str, name = str, suspendida = bool):
     from ocurrencias import Ocurrencia
     from attributes import Attributes
 
-    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
 
     nuevos_atributos = Attributes(
         id= id,
@@ -113,8 +110,6 @@ def post_eventos(id = str, name = str, suspendida = bool):
 @app.put("/eventos")
 def put_eventos(id = str, name = str):
     import json
-
-    #url ='C:\\Users\\Nacho\\Documents\\TUIA\\Redes\\TPRedes\\eventos.json'
 
     with open(file_path) as file:
         data = json.load(file)

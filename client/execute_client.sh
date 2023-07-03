@@ -1,4 +1,7 @@
+#!/bin/bash
+
+
 echo executing Client API...
-python client.py
+python3 client.py
 
 pause
